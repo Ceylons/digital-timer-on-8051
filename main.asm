@@ -260,7 +260,7 @@ INC CNTA
 
 MOV A,Binit
 add A,#4
-mov 07H,A;最初的CNTB+4的值存入21H（98: Binit = 0，如果显示到第4列，CNTB 应该= 4)
+mov 07H,A;
 
 mov A,CNTB
 CJNE A,07H,T0L
@@ -309,7 +309,7 @@ Renumber:
     	DEC numR
     	MOV B,#4
         MOV A,CNTB
-    	SUBB A,B;CTNB = CTNB-4,保证从原来那个数的第一列开始重新亮（98：CNTB=0）
+    	SUBB A,B;
         MOV CNTB,A; (98: CNTA = 0, CNTB = 0，CNTC = 4)
         Mov Binit,CNTB;store CNTB to judge whether 4 cols have shown completely
 	Mov Cinit,CNTC
