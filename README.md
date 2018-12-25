@@ -21,3 +21,7 @@ Your main task in this project is to program the digital timer using assembly la
 
 **Advanced/Innovative Features**: The above describes only the basic functions of the digital timer. You are recommended to think of 1-2 useful additional functions innovatively and implement them in your 8051 program. You can use any other virtual hardware for your additional functions. 
 
+## Usage
+
+Import three .vhc files and run main.asm
+
