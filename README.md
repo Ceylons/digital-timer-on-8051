@@ -5,7 +5,7 @@ The goal of this project is to give you a complete experience in design and prog
 
 ## System Specification
 
-We want to develop a digital timer using virtual hardwares wuth MCU 8051 IDE. Due to the speed of simulation, a time unit is defined to be 1 ms/milliseconds in the simulator. 
+We want to develop a digital timer using virtual hardwares with MCU 8051 IDE. Due to the speed of simulation, a time unit is defined to be 1 ms/milliseconds in the simulator. 
 
 **Hardware**: The virtual hardwares for a 8 × 8 LED matrix and a 4 × 4 keypad are provided. Please load the virtual hardwares to see the actual pin connections. You may use another virtual hardware available to construct your extra functions. 
 You can assume the MCU is clocked at 10 MHz so you can put 10000 to the clock frequency in your simulator. 
