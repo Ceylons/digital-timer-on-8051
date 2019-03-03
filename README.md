@@ -2,7 +2,7 @@
 
 ## System Specification
 
-Develop a digital timer using virtual hardwares with MCU 8051 IDE. Due to the speed of simulation, a time unit is defined to be 1 ms/milliseconds in the simulator. 
+A digital timer using virtual hardwares with MCU 8051 IDE. Due to the speed of simulation, a time unit is defined to be 1 ms/milliseconds in the simulator. 
 
 **Hardware**: A 8 × 8 LED matrix and a 4 × 4 keypad. Assume the MCU is clocked at 10 MHz.
 
